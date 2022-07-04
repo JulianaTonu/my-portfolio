@@ -38,8 +38,8 @@ padding-left: 5%;
     /* padding-top: 25px; */
 
     padding: 8px 36px;
-    background-image:linear-gradient(rgb(229, 212, 61), crimson);
-    color: aliceblue;
+    background-image:linear-gradient(rgb(234, 158, 174), crimson);
+    color: rgb(0, 3, 6);
     border-radius: 5px;
     
 }
@@ -80,4 +80,46 @@ a{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.flexible-container .half-width{
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px 20px;
+    border-radius: 10px;
+    /* background: #dec7a5;
+     */
+     background-image:linear-gradient(rgb(229, 212, 61), rgb(255, 148, 169));
+     border-left: 7px solid blue;
+}
+#half{
+    border-left: 7px solid rgb(182, 7, 7);
+}
+ 
+.experience h3{
+    color: crimson;
+}
+
+
+h2{
+    font-size: 30px;
+}
+h1{
+    margin-left: 5%;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
 }
