@@ -1,0 +1,61 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+}
+.name{
+    color: crimson;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.myself{
+width: 50%;
+padding-left: 5%;
+/* padding: 10px; */
+
+}
+.img{
+    width: 40%;
+    height: 50vh;
+}
+#image{
+    width: 413px;
+    height: 431px;
+}
+
+.btn{
+
+    /* margin: 9px ; */
+    margin-top: 50px;
+    /* padding-top: 25px; */
+
+    padding: 8px 36px;
+    background-image:linear-gradient(rgb(229, 212, 61), crimson);
+    color: aliceblue;
+    border-radius: 5px;
+    
+}
+a{
+    text-decoration: none;
+   
+}
+
+.btn:hover{
+    color: crimson;
+    background: transparent;
+    border: 2px solid crimson;
+
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
